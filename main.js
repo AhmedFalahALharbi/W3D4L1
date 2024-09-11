@@ -3,7 +3,8 @@ title = document.getElementsByClassName("page-title")[0]
 title.style.color = "lightskyblue"
 title.style.backgroundColor = "lightgrey"
 // Q2
-name1 = document.getElementById("name").setAttribute('class' , "family");
+name1 = document.getElementById("name")
+name1.classList.add('family')
 name1.style.fontWeight = 900;
 // Q3
 console.log(title);
@@ -11,6 +12,5 @@ image = document.getElementsByTagName('img')[0].setAttribute('src' , "https://en
 
 // Q4
 list = document.querySelector("ul") 
-
 
 
